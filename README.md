@@ -1,4 +1,4 @@
-# Funky Towners
+# Funky Town
 
 A simple landing page for an NFT collection.
 
