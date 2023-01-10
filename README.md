@@ -8,6 +8,10 @@ A simple landing page for an NFT collection.
 - Tailwind CSS
 - HTML
 
+## Deployment
+
+[Vercel](https://nft-landing-psi.vercel.app/)
+
 ## Demo:
 
 ![](./public/Images/demo.gif)
