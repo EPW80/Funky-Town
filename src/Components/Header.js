@@ -20,8 +20,9 @@ function Header() {
       </div>
 
       <div
-        className={`${show ? "hidden" : "block"
-          } bgSmall left-0 px-4 right-0 absolute top-12 lg:px-0 lg:relative lg:top-0 lg:col-span-3 lg:flex gap-10 justify-end items-center`}
+        className={`${
+          show ? "hidden" : "block"
+        } bgSmall left-0 px-4 right-0 absolute top-12 lg:px-0 lg:relative lg:top-0 lg:col-span-3 lg:flex gap-10 justify-end items-center`}
       >
         <ul className="lg:flex">
           <li className={menuClass}>
@@ -30,20 +31,20 @@ function Header() {
           <li className={menuClass}>
             <a href="http://localhost:3000"></a>
           </li>
-          /* <li className={menuClass}>
-  <a href="http://localhost:3000"></a>
-</li>
-<li className={menuClass}>
-  <a href="http://localhost:3000"></a>
-</li>
-
-</ul>
-<button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
-CONNECT
-</button>
-</div>
-</div>
-);
+          /*{" "}
+          <li className={menuClass}>
+            <a href="http://localhost:3000"></a>
+          </li>
+          <li className={menuClass}>
+            <a href="http://localhost:3000"></a>
+          </li>
+        </ul>
+        <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
+          CONNECT
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default Header;
